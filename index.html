@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--- favicon link --->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- custom css link --->
+  <link rel="stylesheet" href="/style.css">
+
+  <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
+</head>
+
+<body>
+
+  <!-- background pattern -->
+  <img src="/images/pattern-curve.svg" class="bg-pattern absolute">
+
+  <div class="slider-container grid">
+    <div class="slider__wrapper margin-inline-auto flex flex-items-center" data-slider-wrapper>
+
+      <div class="slider__card grid">
+        <div class="user-avatar-wrapper relative">
+          <img src="/images/pattern-bg.svg">
+
+          <figure class="user__avatar absolute">
+            <img src="/images/image-tanya.jpg" class="img-cover">
+          </figure>
+
+          <div class="navigation__btn__wrapper absolute flex align-items-center justify-content-between">
+            <button class="btn__prev" data-btn-prev data-slide-navigation-btn>
+              <img src="/images/icon-prev.svg" width="8">
+            </button>
+            <button class="btn__next" data-btn-next data-slide-navigation-btn>
+              <img src="/images/icon-next.svg" width="8">
+            </button>
+          </div>
+
+        </div>
+
+        <div class="testimonial__content relative">
+          <img src="/images/pattern-quotes.svg" class="absolute quote-pattern" width="60">
+
+          <p class="testimonial__message text-align">
+            “ I’ve been interested in coding for a while but never taken the jump, until now. I couldn’t recommend
+            this
+            course enough. I’m now in the job of my dreams and so excited about the future. ”
+          </p>
+
+          <div class="user__info flex flex-direction-column">
+            <p class="user__name text-align">
+              Tanya Sinclair
+            <p>
+            <p class="user__designation text-align">
+              UX Engineer
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="slider__card grid">
+        <div class="user-avatar-wrapper relative">
+          <img src="/images/pattern-bg.svg">
+
+          <figure class="user__avatar absolute">
+            <img src="/images/image-john.jpg" class="img-cover">
+          </figure>
+
+          <div class="navigation__btn__wrapper absolute flex align-items-center justify-content-between">
+            <button class="btn__prev" data-btn-prev data-slide-navigation-btn>
+              <img src="/images/icon-prev.svg" width="8">
+            </button>
+            <button class="btn__next" data-btn-next data-slide-navigation-btn>
+              <img src="/images/icon-next.svg" width="8">
+            </button>
+          </div>
+
+        </div>
+
+        <div class="testimonial__content relative">
+          <img src="/images/pattern-quotes.svg" class="absolute quote-pattern" width="60">
+
+          <p class="testimonial__message text-align">
+            “ If you want to lay the best foundation possible I’d recommend taking this course.
+            The depth the instructors go into is incredible. I now feel so confident about
+            starting up as a professional developer. ”
+          </p>
+
+          <div class="user__info">
+            <p class="user__name text-align">
+              John Tarkpor
+            <p>
+            <p class="user__designation text-align">
+              Junior Front-end Developer
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- custom script link --->
+  <script src="script.js"></script>
+</body>
+
+</html>

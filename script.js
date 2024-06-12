@@ -2,7 +2,6 @@ const sliderWrapper = document.querySelector("[data-slider-wrapper]");
 const slideNavigationButtons = document.querySelectorAll("[data-slide-navigation-btn]");
 const slideNavigationBtns = document.querySelectorAll("[data-slide-navigation-btn]");
 
-
 const totalSlides = Array.from(sliderWrapper.children);
 
 function handleSlides() {

@@ -196,10 +196,6 @@ body {
   z-index: 3;
 }
 
-[data-slide-navigation-btn] {
-  cursor: pointer;
-}
-
 .quote-pattern {
   top: 0;
   left: 50%;
@@ -277,7 +273,7 @@ body {
 
   .navigation__btn__wrapper {
     transform: translateX(0);
-    top: calc(80% + 20px);
-    left: 20%;
+    top: 85%;
+    left: 25%;
   }
 }
